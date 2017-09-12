@@ -49,13 +49,10 @@
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
+                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
             </li>
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
@@ -67,25 +64,25 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Evan Lutins</h1>
-            <h3>I am a Data Scientist who is able to easily adapt and thrive in different work environments. I am driven by the ability to utilize machine learning algorithms to further understand the workings of various industries, and enhancing personal growth while simultaneously contributing to a company's success.</h3>
+            <h3 class="header-text">A data scientist who is able to easily adapt and thrive in different work environments. I am driven by the ability to utilize machine learning algorithms to further understand the workings of various industries, and enhancing personal growth while simultaneously contributing to a company's success.</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Learn More</a>
+            <a href="#services" class="btn btn-dark btn-lg">Click Here to See My Skills. Go ahead, we both want you to.</a>
         </div>
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <!-- <section id="services" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                   <!--  <h2>Stylish Portfolio is the perfect theme for your next project!</h2> -->
-                  <!--   <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p> -->
-                </div>
+                  <!--<p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p> -->
+              <!--  </div>
             </div>
             <!-- /.row -->
-        </div>
+    <!--    </div>
         <!-- /.container -->
-    </section>
+  <!--  </section> -->
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
@@ -105,8 +102,8 @@
                                 <h4>
                                     <strong>Coding</strong>
                                 </h4>
-                                <p>Focus in Python and SQL</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Extensive work with Python and direct application towards machine learning algorithms</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -118,10 +115,11 @@
                                 <h4>
                                     <strong>Machine Learning and Model Building</strong>
                                 </h4>
-                                <p>Experience with regression, classification, clustering, and time series problems while implementing various model evaluation methods</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Experience implementing various machine learning algorithms</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
+
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
@@ -131,21 +129,21 @@
                                 <h4>
                                     <strong>Statistics</strong>
                                 </h4>
-                                <p>Practice with Frequentist and Bayesian statistics with direct application to machine learning</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Practice with Frequentist and Bayesian statistics</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                                <i class="fa fa-link fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
                                     <strong>Web Scraping</strong>
                                 </h4>
                                 <p>Built multiple web scrapers utilizing Beautiful Soup</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
                     </div>
@@ -159,11 +157,13 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+    <!-- <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1>Previous Education</h1>
+              <h3 class="header-text">Data Science Immerisve, General Assembly Washington D.C.</h3>
+              <h3 class="header-text">University of Maryland, College Park</h3>
         </div>
-    </aside>
+    </aside> -->
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -183,7 +183,7 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="https://github.com/elutins/Predicting-MLB-Gambling-Scenarios" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/mlb.png" width=330>
+                                    <img class="img-portfolio img-responsive" src="img/mlb.jpg" width=330>
                                 </a>
                             </div>
                         </div>
@@ -201,9 +201,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="col-md-12">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/elutins/Predicting-Iowa-Liquor-Sales" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/iowa.jpg">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -213,7 +220,7 @@
     </section>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <!-- <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -223,7 +230,7 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside> -->
 
     <!-- Map -->
     <section id="contact" class="map">
@@ -251,7 +258,10 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.linkedin.com/in/evan-lutins-b2161510b/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/evan-lutins-b2161510b/" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/elutins" target="_blank"><i class="fa fa-github-square fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
